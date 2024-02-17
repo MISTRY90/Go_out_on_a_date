@@ -1,0 +1,36 @@
+body {
+    background-color: #E3FDFD;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #71C9CE;
+}
+
+img {
+    width: 30%;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.btn {
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    background-color: #71C9CE;
+    border: none;
+}

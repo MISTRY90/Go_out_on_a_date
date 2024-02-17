@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asking u out!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Do You Wanna Go Out ??</h1>
+        <img src="peach-and-goma-peach-goma.gif" alt="image">
+    </div>
+    <div class="btns">
+        <button id="myButton" class="yes btn">Yes</button>
+        <button type="button" class="no btn" id="nobtn">No</button>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "yes.html";
+        };
+    </script>
+    <script>
+        $("#nobtn").mouseenter( function(){
+            $("#nobtn").fadeOut();
+        });
+    </script>
+</body>
+
+</html>
